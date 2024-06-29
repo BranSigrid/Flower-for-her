@@ -12,13 +12,23 @@
             overflow: hidden;
         }
         
+        .message {
+            text-align: center;
+            color: #f5d3e3;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 4em;
+            margin-top: 50px;
+            transform: rotate(-10deg);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
         .container {
             width: 100px;
             height: 300px;
             position: absolute;
             left: 0;
             right: 0;
-            top: 0;
+            top: 150px; /* Adjusted to give space for the message */
             bottom: 0;
             margin: auto;
             transform: scale(0.6);
@@ -239,8 +249,8 @@
             animation-delay: 3s;
         }
         .container .sparkles > div:nth-child(6) {
-            left: -82px;
-            animation-delay: 2s;
+            left: 99px;
+            animation-delay: 3s;
         }
         .container .sparkles > div:nth-child(7) {
             left: 45px;
@@ -338,6 +348,17 @@
     </style>
 </head>
 <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="message">For You, Cutie</div>
     <div class="container">
         <div class="glass"></div>
         <div class="glow"></div>
